@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Second Homework</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Forms</h1>
+    <form >
+        <label for="cities">Choose A City:</label>
+        <select id="cities" name="cities">
+          <option></option>
+          <option value="tokyo">Tokyo</option>
+          <option value="new york">New York</option>
+          <option value="Paris">Paris</option>
+        </select>
+      </form>
+      <div style="border: solid black; margin-top: 20px; width: 25%; padding: 10px;">
+      <h2 style="margin-top: 4px;">My Form</h2>
+      <form >
+        <label for="fname">My Name:</label>
+        <input type="text" id="fname" name="fname" maxlength="10" required ><br><br>
+        <label for="password">My Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="email">My Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <input type="button"  value="Send">    
+      </form>
+    </div>
+    <div style="border: solid black; padding: 3px; width: 55%; margin-top: 10px;">
+        <h2>Chocolate Soufflé</h2>
+        <p>If you're looking for a dessert that's impressive enough for a dinner party but easy enough to make for a casual meal at home,<b>this chocolate soufflé is it.</b></p>
+       <hr> <h3>Ingredients</h3>
+        <ul>
+            <li>Unsalted butter</li>
+            <li>¼ cup sugar</li>
+            <li>8 ounces semisweet Chocolate</li>
+            <li>1 teaspoon pure vanilla extract</li>
+            <li>3 large egg yolks, plus 4 large egg whites</li>
+            <li>¼ teaspoon cream of tartar</li>
+        </ul><hr>
+        <h3>Preparation</h3>
+        <ol>
+            <li>Preheat oven to 350°F. Lightly butter a baking dish</li>
+            <li>In a large heatproof bowl set over a pot of simmering water, combine chocolate, vanilla, and 1/4 cup water.</li>
+            <li>Stir until chocolate is melted and let it cool then add egg yolks</li>
+            <li>In a large bowl beat egg whites and cream of tartar until soft peaks form then add sugar</li>
+            <li>In two additions, fold egg-white mixture into soufflé base</li>
+            <li>Bake soufflé until puffed and set, 30 to 35 minutes.</li>
+        </ol>
+    </div>
+    <div style="border: solid black; margin-top: 10px; width: 25%; padding: 8px;">
+        <h2>Let's Go Somewhere</h2>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required autofocus><br><br>
+            <label for="family">Family Name:</label>
+            <input type="text" id="family" name="family" placeholder="Put your family name here" required ><br><br>
+            <span>Gender:</span>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            <label for="cities">Choose A City:</label>
+            <select id="cities" name="cities">
+            <option value="rome">Rome</option>
+            <option value="londen">Londen</option>
+           <option value="kiev">Kiev</option>
+           <option value="amsterdam">Amsterdam</option>
+           </select>
+           <p>Date to travel:</p>
+           <label for="from">From:</label>
+           <input type="date" id="from" name="from" min="2024-01-01">
+           <label for="to">To:</label>
+           <input type="date" id="to" name="to" min="2024-01-03"><br><br>
+           <p>Give me deals for:</p>
+           <input type="checkbox" id="city" name="city" value="city">
+           <label for="city"> kiev </label><br>
+           <input type="checkbox" id="city2" name="city2" value="city">
+           <label for="city"> Amsterdam</label><br>
+           <input type="checkbox" id="city3" name="city3" value="city">
+           <label for="city">rome</label><br>
+           <input type="checkbox" id="city4" name="city4" value="city">
+           <label for="city">Londen</label><br><br>
+           <input type="button"  value="Send">
+        </form>
+    </div>
+
+</body>
+</html>
